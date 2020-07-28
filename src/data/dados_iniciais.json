@@ -1,183 +1,171 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Coisas boas acontecem",
+      "link": "#",
       "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "link_extra": {
+        "text": "Veja mais vídeos que melhoram seu dia",
+        "url": "#" 
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Vai uma dose de positividade ai?",
+          "url": "https://www.youtube.com/watch?v=INEhm_CrRMo"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Daltonicos vendo as cores pela primeira vez",
+          "url": "https://www.youtube.com/watch?v=nyJlcEJais0"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Ajudando ",
+          "url": "https://www.youtube.com/watch?v=JmiNhELN06g"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Ajudando o próximo",
+          "url": "https://www.youtube.com/watch?v=6bi-jGwYWNk"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Ouvindo pela primeira vez",
+          "url": "https://www.youtube.com/watch?v=OlUcxSaGs0Q"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Passageiros empurram trem para ajudar a soltar homem preso",
+          "url": "https://www.youtube.com/watch?v=Rh0-7piq1S0"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Juiz perdoa multa de homem de 96 anos por bom motivo",
+          "url": "https://www.youtube.com/watch?v=VaMAz_039Ok"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Animais",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Veja mais",
+        "url": "#"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Cachorro brincando com balão",
+          "url": "https://www.youtube.com/watch?v=LRSprBIB7Ks"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "O melhor presente",
+          "url": "https://www.youtube.com/watch?v=SrwQnesH6Y8"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Animais encontrando seus donos",
+          "url": "https://www.youtube.com/watch?v=g3513QrkNtk"
         }
-      ]
+       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Para refletir",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Veja mais",
+        "url": "#"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Tire as mão do bolso e ajude",
+          "url": "https://www.youtube.com/watch?v=c_Ua-1_ze0w"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "A importancia de cada um no grupo e o respeito",
+          "url": "https://www.youtube.com/watch?v=vb-3NdH75d0"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "love hair",
+          "url": "https://www.youtube.com/watch?v=kNw8V_Fkw28"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Pip",
+          "url": "https://www.youtube.com/watch?v=07d2dXHYb94"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Os melhores curtas",
+      "cor": "red",
+      "link_extra": {
+        "text": "Veja mais",
+        "url": "#"
+      },
+      "videos": [
+        {
+          "titulo": "Reflexão sobre a diferença",
+          "url": "https://www.youtube.com/watch?v=pktG7AJRL8k"
+        },
+        {
+          "titulo": "Kitbull",
+          "url": "https://www.youtube.com/watch?v=AZS5cgybKcI"
+        },
+        {
+          "titulo": "Geri-s Game",
+          "url": "https://www.youtube.com/watch?v=g05osDX1G_g"
+        },
+        {
+          "titulo": "In a heartbeat",
+          "url": "https://www.youtube.com/watch?v=2REkk9SCRn0"
+        },
+        {
+          "titulo": "Purl",
+          "url": "https://www.youtube.com/watch?v=B6uuIHpFkuo"
+        }
+      ]
+    },
+    {
+      "titulo": "Musicas",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "happier",
+          "url": "https://www.youtube.com/watch?v=m7Bc3pLyij0"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "this is me",
+          "url": "https://www.youtube.com/watch?v=CjxugyZCfuw"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Lady gaga e fan juntos - Scheibe",
+          "url": "https://www.youtube.com/watch?v=uCHM-G4xFoc"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
+          "titulo": "Clocks - Coldplay em marimba",
+          "url": "https://www.youtube.com/watch?v=mB8PU2nmrdA"
+        },
+        {
+          "titulo": "Somewhere only we know",
+          "url": "https://www.youtube.com/watch?v=TzNw2AwvHfI"
+        } 
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Acalme-se, medite, relaxe",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Veja mais",
+        "url": "#"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Pachebel - Canon in D",
+          "url": "https://www.youtube.com/watch?v=rNsgHMklBW0"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Metidação para ansiedade",
+          "url": "https://www.youtube.com/watch?v=Iub-qQmNSYU"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "som de chuva para relaxar",
+          "url": "https://www.youtube.com/watch?v=d60DURXeALE&t=185s"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Sons para acalmar",
+          "url": "https://www.youtube.com/watch?v=pWjmpSD-ph0"
         }
       ]
     }

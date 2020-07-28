@@ -1,15 +1,15 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-}
+  }
 
 :root {
-  --primary: #2A7AE4;
-  --black: #000000;
+  --primary: #865C6C;
+  --black: #F1CDD7;
   --blackLighter: #9E9E9E;
-  --grayLight: #F5F5F5;
-  --grayMedium: #e5e5e5; 
-  --white: #FFFFFF;
+  --grayLight: ##865C6C;
+  --grayMedium: #865C6C; 
+  --white: #865C6C;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
 }
@@ -21,5 +21,5 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #865C6C;
 } 
