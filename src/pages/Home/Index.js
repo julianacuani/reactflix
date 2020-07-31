@@ -1,48 +1,51 @@
-import React from 'react';
-import Menu from '../../components/Menu'
-import dadosIniciais from '../../data/dados_iniciais.json';
+import React, { useEffect, useState } from 'react';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import PageDefault from '../../components/PageDefault';
+import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
+  const [initialValues, setinitialValues] = useState([]);
+
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        setinitialValues(categoriasComVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
-    <div style={{ background: "#000000" }}>
-      <Menu />
+    <PageDefault paddingAll={0}>
+      {initialValues.length === 0 && (<div>Loading...</div>)}
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Nem todos os dias são bons mas as vezes um simples vídeo pode mudar nosso humor, nos trazer um sentimento de paz, alegria, esperança ou simplesmente nos confortar! Aqui é o lugar onde você vai conseguir encontrar um pouquinho de positividade para seguir"}
-      />
+      {initialValues.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={initialValues[0].videos[0].titulo}
+                url={initialValues[0].videos[0].url}
+                videoDescription={initialValues[0].videos[0].description}
+              />
+              <Carousel
+                ignoreFirstVideo
+                category={initialValues[0]}
+              />
+            </div>
+          );
+        }
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />      
-
-      <Footer />
-    </div>
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
+    </PageDefault>
   );
 }
 
